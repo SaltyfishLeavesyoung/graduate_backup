@@ -1,0 +1,12 @@
+train_pth : '/home/yzy/Desktop/JointLandmark/train.txt'
+test_pth : '/home/yzy/Desktop/JointLandmark/val.txt'
+batch_size : 8
+num_workers : 8
+num_landmarks : 6
+learning_rate : 0.0001
+decay_step : 150
+decay_gamma : 0.1
+num_epochs : 500
+save_seq : 10
+lambda : 3
+adj: 3
