@@ -1,0 +1,11 @@
+dataset_pth : '/root/IEEE ISBI 2015 Challenge'
+batch_size : 4
+num_workers : 0
+num_landmarks : 19
+learning_rate : 0.0003
+decay_step : 500
+decay_gamma : 0.1
+num_epochs : 500
+save_seq : 1000
+pretrain : False
+pretrain_path : /home/yeziyang/Desktop/UNCERTAINTY/runs/2022-12-13-17:19:29.126876/model_epoch_179.pth
